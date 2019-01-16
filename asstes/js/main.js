@@ -33,7 +33,7 @@ $(function(){
 	var musicList = (function(){     //音乐列表页操作
 		
 		var bbsUrl = 'http://bbs.miaov.com/forum.php?mod=viewthread&tid=14670s';
-		var listUrl = 'musicList.php';
+		var listUrl = './asstes/php/musicList.php';
 		var downY = 0;
 		var prevY = 0;
 		var downT = 0;
