@@ -2,7 +2,7 @@
 
 	require_once('connect.php');
 	
-	$sql = "select name , musicName from music_list"; //查询music_list数据表
+	$sql = "select id , name , musicName from music_list";
 	
 	$query = mysql_query($sql);
 	
