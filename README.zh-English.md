@@ -66,6 +66,8 @@ Open the index.html page under the WWW folder
 2. Complete the loading of lyrics
 3. Complete the pause and play button and the operation of the next and previous buttons on the lyrics page
 
+------
+
 ##### Upload code
 1. git add .
 2. git commit -m "提交信息"
