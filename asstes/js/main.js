@@ -309,9 +309,10 @@ $(function(){
 			}
 		}
 		function loadMessage(){   //载入留言
+			console.log("3333333333")
 			$detailsMessageUl.empty();
 			$.ajax({
-				url : 'loadMessage.php',
+				url : './asstes/php/loadMessage.php',
 				type : 'GET',
 				dataType : 'json',
 				data : { mid : id },
@@ -324,10 +325,11 @@ $(function(){
 			});	
 		}
 		function addMessage(){    //添加留言
+			console.log("22222222222")
 			var value = $detailsMessageTa.val();
 			$detailsMessageTa.val('');
 			$.ajax({
-				url : 'addMessage.php',
+				url : './asstes/php/addMessage.php',
 				type : 'POST',
 				dataType : 'json',
 				data : { mid : id , text : value},
