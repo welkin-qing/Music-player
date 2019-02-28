@@ -2,17 +2,17 @@
 
 <div align="center">
 
-![]()
+![](https://github.com/welkin-qing/Music-player/blob/master/img/mylogo.png)
 
 
 A music player that works with ajax+ PHP based on a mysql database.
 
 一个基于mysql数据库使用ajax+php工作的音乐播放器。
 
-![](https://img.shields.io/badge/release-v1.0-blue.svg)
-![](https://img.shields.io/badge/build-passing-green.svg)
-![](https://img.shields.io/badge/dependencies-up%20to%20date-green.svg)
-![](https://img.shields.io/badge/license-MIT-blue.svg)
+![](https://github.com/welkin-qing/Music-player/blob/master/img/release-1.0-darkcyan.svg)
+![](https://github.com/welkin-qing/Music-player/blob/master/img/build-passing-brightgreen.svg)
+![](https://github.com/welkin-qing/Music-player/blob/master/img/dependencies-up%20to%20date-brightgreen.svg)
+![](https://github.com/welkin-qing/Music-player/blob/master/img/license-MIT-darkcyan.svg)
 
 </div>
 
