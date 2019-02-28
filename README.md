@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![](https://github.com/welkin-qing/Music-player/blob/master/img/mylogo.png)
+![myLogo](https://github.com/welkin-qing/Music-player/blob/master/img/mylogo.png)
 
 
 A music player that works with ajax+ PHP based on a mysql database.
@@ -22,14 +22,18 @@ A music player that works with ajax+ PHP based on a mysql database.
 
 #### 1. 数据库安装
 1. 首先需要安装wampserver
+
 2. 设计表（如下所示）
+
+![Music_list](https://github.com/welkin-qing/Music-player/blob/master/img/music_list.png)
+
 3. 连接数据库
 ```php
 <?PHP
 
 	header("Content-type: text/html; charset=utf-8");  //指定编码
-	$con = mysql_connect('localhost', 'root', '123456wq');   // 连接数据库
-	mysql_select_db("testajax");   //连接指定的数据库
+	$con = mysql_connect('localhost', '****', '****');   // 连接数据库
+	mysql_select_db("****");   //连接指定的数据库
 	mysql_query('set names utf8');  //指定数据库编码 
 
 ?>
@@ -41,6 +45,9 @@ git clone https://github.com/welkin-qing/Music-player
 cd Music-player
 ```
 在www文件夹下打开 index.html 页面
+
+------
+
 # ajax + mysql 搭建音乐播放器
 
 #### 使用php做后台处理
